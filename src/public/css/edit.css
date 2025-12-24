@@ -1,0 +1,78 @@
+.edit {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+.edit__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* 2カラムの親 */
+.edit__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* 左右50%ずつ */
+    gap: 40px;
+    align-items: start;
+}
+
+/* 左カラム */
+.edit__left {
+    text-align: left;
+}
+
+.edit__thumb {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* 右カラム */
+.edit__right {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit__right form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.edit__label {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.edit__input,
+.edit__textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.edit__textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.edit__button {
+    margin-top: 30px;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.edit__button:hover {
+    opacity: 0.85;
+}

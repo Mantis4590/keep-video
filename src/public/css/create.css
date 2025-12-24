@@ -1,0 +1,72 @@
+.create {
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.create__title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.create__field {
+    margin: 20px auto;
+    display: block;
+    text-align: left;
+}
+
+.create__label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.create__input,
+.create__select,
+.create__textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* textareaの拡張設定 */
+.create__textarea {
+    height: 140px;
+    resize: vertical;
+}
+
+/* 送信・キャンセルボタン */
+.create__buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.create__button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.create__button--submit {
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.create__button--submit:hover {
+    opacity: 0.85;
+}
+
+.create__button--cancel {
+    color: #7b47ff;
+}

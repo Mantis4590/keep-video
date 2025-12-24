@@ -1,0 +1,15 @@
+/* 共通リセット（最低限） */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* リンクは自分で制御する */
+a {
+    text-decoration: none;
+    color: inherit;
+}

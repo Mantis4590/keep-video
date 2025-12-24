@@ -1,0 +1,18 @@
+# 除外していいもの
+/vendor/
+/node_modules/
+/public/storage
+/storage/logs
+
+# IDE / 開発ツール
+/.git
+/.gitignore
+/.idea
+/.vscode
+
+# 環境変数
+/.env
+
+# composer / npm キャッシュなど
+npm-debug.log
+yarn-error.log
